@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/settings_menu"
+        android:icon="@drawable/ic_action_setting"
+        android:id="@+id/bottom_setting">
+
+    </item>
+
+    <item android:title="@string/home"
+        android:icon="@drawable/ic_action_home"
+        android:id="@+id/bottom_home">
+
+    </item>
+    <item android:title="@string/camera"
+        android:icon="@drawable/ic_action_camera"
+        android:id="@+id/bottom_camera">
+
+    </item>
+</menu>

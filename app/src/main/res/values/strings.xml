@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+
+    <string name="username">Name</string>
+    <string name="hint_name">Enter NAME</string>
+    <string name="email">email</string>
+    <string name="hint_email">Enter EMAIL</string>
+    <string name="password">password</string>
+    <string name="hint_password">Enter PASSWORD</string>
+    <string name="submit_button">Submit</string>
+    <string name="new_user">New user? sign up here</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="signup">signup</string>
+    <string name="login_message">Already a member? login here</string>
+    <string name="firstslidetext">Chat with Friends AnyTime</string>
+    <string name="skip_btn">Skip</string>
+    <string name="nxt_btn">next</string>
+    <string name="home">HOME</string>
+    <string name="auth_failed">Registration failed</string>
+    <string name="chat_construction">Chat page is under construction</string>
+    <string name="logout_menu">LOUGOUT</string>
+    <string name="status_text">status fragment</string>
+    <string name="chat_text">chat fragment</string>
+    <string name="contacts_text">contacts fragment</string>
+    <string name="settings_status">Hey there! I am using this chat app</string>
+    <string name="settings_menu">SETTINGS</string>
+    <string name="reg_sucess">Enter chatroom now</string>
+    <string name="change_status">Change Status</string>
+    <string name="change_image">change image</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="users">USERS</string>
+    <string-array name="chat_right_menu">
+        <item>USERS</item>
+        <item>MESSAGES</item>
+        <item>REQUEST</item>
+        <item>HELP</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">NAME</string>
+    <string name="addfriend">ADD Friend</string>
+    <string name="message">Message</string>
+    <string name="totalfriends">0</string>
+    <string name="like">Like</string>
+    <string name="request_sent">CANCEL REQUEST</string>
+    <string name="respond">RESPOND</string>
+    <string name="totallikes">0</string>
+    <string name="unlike">UNLIKE</string>
+    <string name="next">NEXT</string>
+    <string name="friends">Friends</string>
+    <string name="likes">Likes</string>
+    <string name="request">Request</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="clearchat">Clear Chat</string>
+</resources>
