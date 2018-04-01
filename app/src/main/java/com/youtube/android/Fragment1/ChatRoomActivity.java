@@ -12,10 +12,12 @@ import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -44,10 +46,10 @@ public class ChatRoomActivity extends AppCompatActivity implements View.OnClickL
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat_room);
-        toolbar = (Toolbar) findViewById(R.id.chatroom_toolbar);
-        recyclerView = (RecyclerView) findViewById(R.id.recylerview_chatroom);
-        send = (FloatingActionButton) findViewById(R.id.sendfloatbutton);
-        inputEditText = (TextInputEditText) findViewById(R.id.sendMessage);
+        toolbar =  findViewById(R.id.chatroom_toolbar);
+        recyclerView =  findViewById(R.id.recylerview_chatroom);
+        send =  findViewById(R.id.sendfloatbutton);
+        inputEditText = findViewById(R.id.sendMessage);
         setSupportActionBar(toolbar);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -137,6 +139,7 @@ public class ChatRoomActivity extends AppCompatActivity implements View.OnClickL
                             }
                             else
                             {
+
                                 FirebaseDatabase.getInstance().getReference().child("Users").child(otherUserUid).addValueEventListener(new ValueEventListener() {
                                     @Override
                                     public void onDataChange(DataSnapshot dataSnapshot) {
@@ -151,6 +154,7 @@ public class ChatRoomActivity extends AppCompatActivity implements View.OnClickL
                                     }
                                 });
                             }
+
 
                         }
 

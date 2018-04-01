@@ -88,7 +88,6 @@ public class StatusFragment extends Fragment implements Total{
             protected void populateViewHolder(final StatusViewHolder viewHolder, String model, int position) {
 
                 final String otherUserUid= getRef(position).getKey();
-                Log.d("ADA",otherUserUid);
                 tempRef = FirebaseDatabase.getInstance().getReference().child("Users").child(otherUserUid);
                 tempRef.addValueEventListener(new ValueEventListener() {
                     @Override
